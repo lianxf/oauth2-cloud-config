@@ -1,5 +1,7 @@
 server:
   port: 8762
+  servlet:
+    context-path: /oauth
 eureka:
  instance:
    non-secure-port: ${server.port}
