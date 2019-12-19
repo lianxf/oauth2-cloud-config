@@ -12,4 +12,4 @@ spring:
   cloud:
     zuul:
       oauth-server:
-        path: /oauth
+        path: /oauth/**
